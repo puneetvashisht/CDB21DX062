@@ -8,11 +8,14 @@
         </style>
     </head>
     <body>
-        <input id="oper1" type="text" placeholder="Enter Operand 1">
-        <input id="oper2" type="text" placeholder="Enter Operand 2">
-        <button onclick="add()"> + </button>
-        <button onclick="minus()"> - </button>
-        <p id="displayresult"></p>
+        <form>
+            <input id="oper1" type="text" placeholder="Enter Operand 1" autofocus required>
+            <input id="oper2" type="text" placeholder="Enter Operand 2">
+            <button onclick="add()"> + </button>
+            <button onclick="minus()"> - </button>
+            <p id="displayresult"></p>
+        </form>
+        
 
         <script>
             function add(){
