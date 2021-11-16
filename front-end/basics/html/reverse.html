@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Reverse</title>
+    <style>
+        #message {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="message">Pleasant weather!</h2>
+    <button onclick="reverse()">Reverse</button>
+
+    <script>
+        function reverse(){
+            console.log('click event...')
+            var str = document.getElementById('message').innerText
+            var resultStr = str.split(' ').reverse().join(' ')
+            console.log(resultStr)
+            document.getElementById('message').innerText = resultStr
+        }
+    </script>
+</body>
+</html>

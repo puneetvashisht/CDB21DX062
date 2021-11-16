@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            p {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <input id="oper1" type="text" placeholder="Enter Operand 1">
+        <input id="oper2" type="text" placeholder="Enter Operand 2">
+        <button onclick="add()"> + </button>
+        <button onclick="minus()"> - </button>
+        <p id="displayresult"></p>
+
+        <script>
+            function add(){
+                console.log('performing addition')
+                var oper1 = document.getElementById('oper1').value
+                var oper2 = document.getElementById('oper2').value
+                var result = parseInt(oper1) + parseInt(oper2)
+                console.log(result)
+                document.getElementById('displayresult').innerText = result
+            }
+            function minus(){
+                console.log('performing substraction')
+                var oper1 = document.getElementById('oper1').value
+                var oper2 = document.getElementById('oper2').value
+                var result = parseInt(oper1) - parseInt(oper2)
+                console.log(result)
+                document.getElementById('displayresult').innerText = result
+            }
+
+        </script>
+    </body>
+</html>
