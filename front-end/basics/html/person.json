@@ -1,0 +1,10 @@
+[{
+    "name": "Ravi",
+    "age": 23,
+    "isMale": true
+},
+{
+    "name": "Priya",
+    "age": 23,
+    "isMale": false
+}]
