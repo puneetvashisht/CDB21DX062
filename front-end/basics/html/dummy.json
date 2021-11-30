@@ -1,0 +1,19 @@
+{
+    "universities": [
+        {
+            "name": "DIT",
+            "country": "INDIA",
+            "state": "UK"
+        },
+        {
+            "name": "Presidency University",
+            "country": "India",
+            "state": "Karnataka"
+        },
+        {
+            "name": "Delhi University",
+            "country": "India",
+            "state": "Delhi"
+        }
+    ]
+}

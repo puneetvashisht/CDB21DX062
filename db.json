@@ -1,0 +1,22 @@
+{
+    "universities": [
+      {
+        "id": 1,
+        "country": "India",
+        "state-province": "UK",
+        "name": "DIT"
+      },
+      {
+        "name": "test",
+        "country": "India",
+        "state-province": "Delhi",
+        "id": 2
+      },
+      {
+        "name": "test2",
+        "country": "India",
+        "state-province": "Delhi",
+        "id": 3
+      }
+    ]
+  }
